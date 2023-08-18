@@ -131,7 +131,7 @@ DATABASES = {
         'PORT': '5432',
     },
  
-    'default': {
+    'default2': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mteam-main-db-0db78a3189396e863',
         'USER': 'mteam-main-db-0db78a3189396e863',
@@ -139,6 +139,14 @@ DATABASES = {
         'HOST': 'user-prod-us-east-2-1.cluster-cfi5vnucvv3w.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
        
+    },
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mtsite',
+        'USER': 'fluffy',
+        'PASSWORD': 'djhf9uasdfiuasfh#*(UVHEF(*CVBEf{}_++ji(()J()RR',
+        'HOST': 'fluffyindustriesmaindb2.postgres.database.azure.com',
+        'PORT': '5432',
     },
   #  'munchy': {
       #  'ENGINE': 'django.db.backends.postgresql',
